@@ -1,41 +1,18 @@
-# Website
+# Cider Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Welcome to the official GitHub repository for the documentation of Cider, an open-source Apple Music client with the unique ability to integrate themes and plugins. This repository aims to provide extensive and understandable guides for Cider users, contributors, and developers.
 
-### Installation
+## Features
 
-```
-$ yarn
-```
+- **Detailed Instructions:** Step-by-step guides on how to install and use Cider, as well as integrate themes and plugins.
+- **Open Source:** All documentation is free to use, edit, and distribute under the terms of our license.
 
-### Local Development
+## Table of Contents
 
-```
-$ yarn start
-```
+1. [Getting Started](#getting-started)
+2. [Documentation Structure](#documentation-structure)
+3. [Contributing](#contributing)
+4. [Support](#support)
+5. [License](#license)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## WIP.
