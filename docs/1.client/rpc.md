@@ -1,10 +1,6 @@
 ---
 title: "Client RPC Documentation"
 description: "This website contains all the resources required to compile, create plugins and theme Cider!"
-navigation:
-  title: "Client RPC"
-  icon: ""
-draft: "false"
 ---
 
 # RPC Documentation
@@ -121,14 +117,6 @@ This will return a JSON string stating if the player is currently actively playi
 </details>
 
 These are the only 2 potential responses to this request, if it is anything else, it's safe to assume something broke.
-
-{/\*
-
-    IMO the next 3 endpoints should be PUT or POST but they're GET because why not. (playPause, play, pause -Amaru8)
-
-    -d3rpp
-
-\*/}
 
 ### **GET** `/toggleAutoplay`
 

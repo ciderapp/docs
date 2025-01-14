@@ -1,4 +1,5 @@
 ---
+title: Troubleshooting FAQs
 description: The main Frequently Asked Questions for Cider application support.
 ---
 
@@ -81,5 +82,5 @@ This is a somewhat common issue for those on OpenSuse and other distro's that re
 ```bash
 127.0.0.1 localhost
 ::1 localhost
-3 127.0.0.2 YOUR_HOSTNAME
+127.0.0.2 YOUR_HOSTNAME
 ```

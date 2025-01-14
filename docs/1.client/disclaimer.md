@@ -1,4 +1,5 @@
 ---
+title: Support Disclaimer
 description: >-
   The disclaimer for what support we can provide through GitHub or Discord.
   Please note this before proceeding to ask for help.
