@@ -8,7 +8,7 @@ description: >-
 
 #### Support (Releases)
 
-Support is fully provided to all releases made on GitHub. Please open an [issue](https://github.com/ciderapp/cider-2/issues/new/choose), and we will try and fix the issue ASAP. Upon issues being fixed, you will need to wait until the next release if you wish to experience the fixed version in a stable state.
+Support is fully provided to all releases made on any of our release platforms (Itch, Microsoft Store and Taproom). Please open an [issue](https://github.com/ciderapp/cider-2/issues/new/choose), and we will try and fix the issue ASAP. Upon issues being fixed, you will need to wait until the next release if you wish to experience the fixed version in a stable state.
 
 
 #### Support (Early-Access Releases)
