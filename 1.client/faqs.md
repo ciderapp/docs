@@ -73,3 +73,13 @@ This is a fairly rare case and can be resolved fairly easily. Follow the steps b
 3. Check that you do not have Cider running already - and that nothing is running on the same port that Cider operates under - `10767`.
 
 Outside of this advice, there is an [open issue on localtunnel](https://github.com/localtunnel/localtunnel/issues/658) for it, unfortunately we are stuck with it as one of the key components in Cider uses it as a dependency. We cannot help further on this issue.
+
+## Why is the app launching with a blank screen on Linux?
+
+This is a somewhat common issue for those on OpenSuse and other distro's that require their `/etc/hosts` file to manually set. To resolve this issue, you will need to ensure that your `/etc/hosts` file is set up correctly. See the example below for how it should look:
+
+```bash
+127.0.0.1 localhost
+::1 localhost
+3 127.0.0.2 YOUR_HOSTNAME
+```
