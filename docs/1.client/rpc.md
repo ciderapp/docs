@@ -28,8 +28,12 @@ The API endpoints documented below are all nested under `/api/v1/playback`.
 Responds with an empty body and status code `204: No Content`. This endpoint can be used to quickly check that the RPC server is still active.
 
 <details>
-<summary><b>204</b>: No Content</summary>
-<code>// No response body...</code>
+<summary><b>200</b>: OK</summary>
+<code>
+<pre>{
+  "status": "ok"
+}</pre>
+</code>
 </details>
 
 #### **GET** `/is-playing`
