@@ -312,6 +312,7 @@ If no item is currently playing but there is one in the playback history, it wil
   "status": "ok"
 }</pre>
 </code>
+</details>
 
 #### **GET** `/queue`
 
@@ -593,6 +594,7 @@ Note that the index is 1-indexed (starts at 1, not 0). Also note that the queue 
   "returnQueue": false
 }</pre>
 </code>
+</details>
 
 <details>
 <summary><b>200</b>: OK</summary>
@@ -644,12 +646,15 @@ Accepts a `position` in seconds to seek to. Note that `/now-playing` returns a t
   "position": 30
 }</pre>
 </code>
+</details>
 
 <details>
-<summary><b>204</b>: No Content</summary>
-```json
-// No Response Body...
-```
+<summary><b>200</b>: OK</summary>
+<code>
+<pre>{
+  "status": "ok"
+}</pre>
+</code>
 </details>
 
 #### **GET** `/volume`
