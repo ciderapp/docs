@@ -201,6 +201,7 @@ Accepts a `type` of item to play and an `id` for the item. `type` should be one 
   "status": "ok"
 }</pre>
 </code>
+</details>
 
 #### **POST** `/play-next`
 
