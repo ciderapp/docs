@@ -15,7 +15,7 @@ We've observed that using `127.0.0.1` when IPv4 is disabled tends to break and n
 
 Unless explicitly disabled within Cider, all API requests require a valid API token. You can generate this token, or turn off authentication, from the menu at **Settings -> Connectivity -> Manage External Application Access to Cider** within Cider.
 
-The generated token should be passed in the `apitoken` header of all requests. Do not prefix the token with `Bearer` or any other string; just pass the token by itself in the header.
+The generated token should be passed in the `apptoken` header of all requests. Do not prefix the token with `Bearer` or any other string; just pass the token by itself in the header.
 
 This token is not required if disabled within the settings menu.
 
@@ -28,8 +28,12 @@ The API endpoints documented below are all nested under `/api/v1/playback`.
 Responds with an empty body and status code `204: No Content`. This endpoint can be used to quickly check that the RPC server is still active.
 
 <details>
-<summary><b>204</b>: No Content</summary>
-<code>// No response body...</code>
+<summary><b>200</b>: OK</summary>
+<code>
+<pre>{
+  "status": "ok"
+}</pre>
+</code>
 </details>
 
 #### **GET** `/is-playing`
@@ -645,10 +649,12 @@ Accepts a `position` in seconds to seek to. Note that `/now-playing` returns a t
 </details>
 
 <details>
-<summary><b>204</b>: No Content</summary>
-```json
-// No Response Body...
-```
+<summary><b>200</b>: OK</summary>
+<code>
+<pre>{
+  "status": "ok"
+}</pre>
+</code>
 </details>
 
 #### **GET** `/volume`
