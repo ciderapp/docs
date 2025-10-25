@@ -15,7 +15,7 @@ We've observed that using `127.0.0.1` when IPv4 is disabled tends to break and n
 
 Unless explicitly disabled within Cider, all API requests require a valid API token. You can generate this token, or turn off authentication, from the menu at **Settings -> Connectivity -> Manage External Application Access to Cider** within Cider.
 
-The generated token should be passed in the `apitoken` header of all requests. Do not prefix the token with `Bearer` or any other string; just pass the token by itself in the header.
+The generated token should be passed in the `apptoken` header of all requests. Do not prefix the token with `Bearer` or any other string; just pass the token by itself in the header.
 
 This token is not required if disabled within the settings menu.
 
